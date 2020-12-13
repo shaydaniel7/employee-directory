@@ -1,9 +1,9 @@
 # User Directory
 
-### Description
+## Description
 This User Directory is an employee directory that uses React. An employer can view their entire employee directory at once, having quick access to their information.
 
-### Business Context
+## Business Context
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It is particularly helpful to be able to filter employees by name.
 
 ## Technologies
@@ -33,7 +33,7 @@ Given a table of random users generated from the Random User API, when the user 
 If you have any questions about this project, you can open an issue or contact me directly at shay@shaydaniel.com. You can find more of my work on Github at [shaydaniel7](https://github.com/shaydaniel7/).  
 
 
-### Important:
-Be sure to push your codebase to GitHub and NOT your built and deployed code. Ensure this happens by following the above instructions and using the gh-pages branch to host the deployed application's code.
+## Important:
+Be sure to push your codebase to GitHub and NOT your built and deployed code. Ensure this happens by following the above instructions and using the gh-pages branch to host the deployed application's code.  https://create-react-app.dev/docs/deployment/#github-pages
 
 
