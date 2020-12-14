@@ -10,35 +10,20 @@ class UserContainer extends Component {
     currentPage: "Home",
   };
 
-  handlePageChange = page => {
-    this.setState({ currentPage: page });
-    
-    };
+  // handlePageChange = page => {
+  //   this.setState({ currentPage: page });
 
- renderPage = () => {
-  if (this.state.currentPage === "Home") {
-    return <Home />;
-   } else if (this.state.currentPage === "About") {
-    return <About />;
-  } else if (this.state.currentPage === "Blog") {
-    return <Blog />;
-  } else {
-    return <Contact />;
+  // };
 
- }
+  // renderPage = () => {
+  //   if (this.state.currentPage === "Home") {
+  //     return <Home />;
+  //   } else if (this.state.currentPage === "About") {
+  //     return <About />;
+  //   } else if (this.state.currentPage === "Blog") {
+  //     return <Blog />;
+  //   } else {
+  //     return <Contact />;
 
-    render() {
-      return (
-        <div>
-          <NavTabs
-            currentPage={this.state.currentPage}
-            handlePageChange={this.handlePageChange}
-          />
-        Based on `this.state.currentPage`, render the appropriate component
-        here.
-        </div>
-      );
-    }
-  }
-
-  export default PortfolioContainer;
+}
+export default UserContainer;
