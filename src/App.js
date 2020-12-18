@@ -1,13 +1,13 @@
 import React from "react";
-import Table from "./components/Table";
 import Header from "./components/Header"
+import Directory from "./components/Directory"
 
 function App() {
   return (
     <div>
       <Header />
 
-      <Table />
+     <Directory />
 
     </div>
   );
