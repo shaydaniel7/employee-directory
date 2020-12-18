@@ -27,8 +27,9 @@ class Directory extends Component {
             <th>First name</th>
             <th>Last name</th>
             <th>Email</th>
+            <th>Address</th>
             <th>Age</th>
-            <th>Phone</th>
+            <th>Phone number</th>
 
           </tr>
         </thead>
@@ -41,6 +42,7 @@ class Directory extends Component {
                   <td>{employees.name.first}</td>
                   <td>{employees.name.last}</td>
                   <td>{employees.email}</td>
+                  <td>{employees.location.street.number + " " + employees.location.street.name + ", " + employees.location.city + ", " + employees.location.state + " " + employees.location.postcode}</td>
                   <td>{employees.dob.age}</td>
                   <td>{employees.phone}</td>
                   
