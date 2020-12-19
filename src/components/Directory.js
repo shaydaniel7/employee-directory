@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-// import UserInfo from "./UserInfo";
 import getRandomUsers from "./utilities/getRandomUsers"
+import "../styles.css"
 
 class Directory extends Component {
   state = {
     users: [],
-    // order: "descend"
   }
 
   componentDidMount() {
@@ -20,16 +19,16 @@ class Directory extends Component {
   render() {
     return (
     <div className="table-responsive">
-      <table className="table table-striped table-sm">
+      <table className="table table-bordered table-dark table-hover table-sm table-striped">
         <thead>
           <tr>
-            <th>Profile Photo</th>
-            <th>First name</th>
-            <th>Last name</th>
+            <th>Photo</th>
+            <th>First</th>
+            <th>Last</th>
             <th>Email</th>
             <th>Address</th>
-            <th>Age</th>
-            <th>Phone number</th>
+            {/* <th>Age</th> */}
+            <th>Phone</th>
 
           </tr>
         </thead>
@@ -43,7 +42,7 @@ class Directory extends Component {
                   <td>{employees.name.last}</td>
                   <td>{employees.email}</td>
                   <td>{employees.location.street.number + " " + employees.location.street.name + ", " + employees.location.city + ", " + employees.location.state + " " + employees.location.postcode}</td>
-                  <td>{employees.dob.age}</td>
+                  {/* <td>{employees.dob.age}</td> */}
                   <td>{employees.phone}</td>
                   
                 </tr>
@@ -55,6 +54,5 @@ class Directory extends Component {
     )
   }
 }
-
 
 export default Directory;
