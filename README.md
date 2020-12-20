@@ -20,7 +20,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 * Props
 
 ## Acceptance Criteria
-Given a table of random users generated from the Random User API, when the user loads the page, a table of employees renders. The user is able to sort the table by at least one category as well as filter the users by at least one property.
+Given a table of random users generated from the Random User API, when the user loads the page, a table of employees renders. The user is able to sort the table alphabetically by first or last name, as well as search for a particular name. 
 
 ## Usage
 
