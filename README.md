@@ -32,9 +32,3 @@ Given a table of random users generated from the Random User API, when the user 
 
 ## Information
 If you have any questions about this project, you can open an issue or contact me directly at shay@shaydaniel.com. You can find more of my work on Github at [shaydaniel7](https://github.com/shaydaniel7/).  
-
-
-## Important:
-Be sure to push your codebase to GitHub and NOT your built and deployed code. Ensure this happens by following the above instructions and using the gh-pages branch to host the deployed application's code.  https://create-react-app.dev/docs/deployment/#github-pages
-
-
