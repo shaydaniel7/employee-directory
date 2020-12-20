@@ -1,9 +1,13 @@
+body {
+    background-color: #454d55!important;
+}
+
 h1 {
-    font-size: 60px!important;
+    font-size: 50px!important;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 23px;
-    color:  rgb(38, 38, 38);
+    color:  white;
 }
 
 .searchbar {
@@ -26,7 +30,7 @@ h1 {
 table th {
     font-family: 'Poppins', sans-serif;
     font-size: 23px;
-    background-color: #000000;
+    background-color: #343a40;
     color: white;
     text-align: center;
     vertical-align: middle!important;

@@ -63,7 +63,7 @@ class Directory extends Component {
     return (
       <div className="table-responsive">
         <input className="searchbar" placeholder="search for an employee" onChange = {(e) => this.searchEmployees(e.target.value)}></input>
-        <table className="table table-bordered table-dark table-hover table-sm table-striped">
+        <table className="table table-bordered table-dark table-sm table-striped">
           <thead>
             <tr>
               <th>Photo</th>
