@@ -67,8 +67,8 @@ class Directory extends Component {
           <thead>
             <tr>
               <th>Photo</th>
-              <th>First<br></br><button size="sm" onClick={this.sortFirst} className="az sm">sort a-z</button></th>
-              <th>Last<br></br><button onClick={this.sortLast} className="az sm">sort a-z</button></th>
+              <th>First<button onClick={this.sortFirst} className="az sm">sort a-z</button></th>
+              <th>Last<button onClick={this.sortLast} className="az sm">sort a-z</button></th>
               <th>Email</th>
               <th>Address</th>
               <th>Phone</th>

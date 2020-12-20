@@ -29,6 +29,7 @@ table th {
     background-color: #000000;
     color: white;
     text-align: center;
+    vertical-align: middle!important;
     line-height: 50px;
 }
 
