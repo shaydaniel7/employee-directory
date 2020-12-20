@@ -1,9 +1,26 @@
-.header {
+h1 {
+    font-size: 60px!important;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
     text-align: center;
-    padding: 30px;
+    padding: 23px;
     color:  rgb(38, 38, 38);
+}
+
+.searchbar {
+    margin-left: auto;    
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: block;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.az {
+    font-size: 16px;
+    /* width: 45px; */
+    margin: 20px;
+    height: 55px;
 }
 
 table th {
@@ -13,11 +30,10 @@ table th {
     color: white;
     text-align: center;
     line-height: 50px;
-
 }
 
-.img {
-    border: 3px solid white;
+img {
+    border: 2px solid white!important;
 }
 
 td {
