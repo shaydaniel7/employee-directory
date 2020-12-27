@@ -1,12 +1,9 @@
 # Employee Directory
 
-## Description
-This Employee Directory is an employee directory that uses React. An employer can view their entire employee directory at once, having quick access to their information.
+### Description
+This Employee Directory uses React. An employer can view their entire employee directory at once, having quick access to their information. Given a table of random users generated from the Random User API, when the user loads the page, a table of employees renders. The user is able to sort the table alphabetically by first or last name, as well as search for a particular name. An employee or manager could benefit greatly from being able to view non-sensitive data about other employees. It is particularly helpful to be able to filter employees by name.
 
-## Business Context
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It is particularly helpful to be able to filter employees by name.
-
-## Technologies
+### Technologies
 * HTML
 * CSS
 * Javascript
@@ -19,10 +16,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 * JSX variables
 * Props
 
-## Acceptance Criteria
-Given a table of random users generated from the Random User API, when the user loads the page, a table of employees renders. The user is able to sort the table alphabetically by first or last name, as well as search for a particular name. 
-
-## Usage
+### Usage
 
 [Here](https://shaydaniel7.github.io/user-directory/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/user-directory "Link to github repository") is the github repository for this project.
 
