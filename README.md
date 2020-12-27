@@ -24,7 +24,7 @@ Given a table of random users generated from the Random User API, when the user 
 
 ## Usage
 
-[Here](https://shaydaniel7.github.io/employee-directory/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/employee-directory "Link to github repository") is the github repository for this project.
+[Here](https://shaydaniel7.github.io/user-directory/) is the link to the deployed app.  [Here](https://github.com/shaydaniel7/user-directory "Link to github repository") is the github repository for this project.
 
 ## Screenshot
 <img width="1654" alt="Screen Shot 2020-12-19 at 7 50 27 PM" src="https://user-images.githubusercontent.com/67557233/102704685-8362fd00-4233-11eb-9f97-4ee4b617c9a6.png">
